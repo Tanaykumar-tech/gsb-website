@@ -20,9 +20,11 @@ jobs:
           node-version: 22
 
       - name: Install dependencies
+        working-directory: GSB-main
         run: npm install
 
       - name: Build project
+        working-directory: GSB-main
         run: npm run build
 
       - name: Deploy to GitHub Pages
