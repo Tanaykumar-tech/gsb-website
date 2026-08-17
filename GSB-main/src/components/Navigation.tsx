@@ -35,7 +35,7 @@ export default function Navigation() {
             whileHover={{ scale: 1.05 }}
             className="flex items-center space-x-2"
           >
-           <img src={logo} alt="Company Logo" className="h-10 w-auto" /> 
+           <img src={logo} alt="Company Logo" className="h-16 w-auto" /> 
             
           </motion.div>
 
