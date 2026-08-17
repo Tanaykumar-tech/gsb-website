@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Menu, X, Globe } from 'lucide-react';
-
+import logo from '../New logo .png';
 export default function Navigation() {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
@@ -35,7 +35,7 @@ export default function Navigation() {
             whileHover={{ scale: 1.05 }}
             className="flex items-center space-x-2"
           >
-           <img src="./New logo .png" alt="Company Logo" className="h-10 w-auto" /> 
+           <img src={logo} alt="Company Logo" className="h-10 w-auto" /> 
             
           </motion.div>
 
